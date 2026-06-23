@@ -28,7 +28,14 @@ TARGETS=(
     "Netflix|fast.com"
     "GitHub|github.com"
     "NodeSeek|nodeseek.com"
-    "Telegram|91.108.56.168"
+    "Telegram.dc1|149.154.175.53"
+    "Telegram.dc5|91.108.56.168"
+    "Akile.hkb|141.11.149.247"
+    "Akile.tw|82.152.91.201"
+    "Bytevirt.sg|82.152.91.201"
+    "Softbank.jp|188.253.125.104"
+    "Bitsflow.us|216.183.230.60"
+    
 )
 
 TMP_FILE="/tmp/ping_results.txt"
