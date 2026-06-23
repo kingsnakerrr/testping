@@ -22,13 +22,32 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor
 
 TARGETS = [
-    ("X", "x.com"), ("Apple", "apple.com"), ("Disney", "disneyplus.com"),
-    ("Instagram", "instagram.com"), ("ChatGPT", "openai.com"), ("Google", "google.com"),
-    ("Claude", "claude.ai"), ("Facebook", "facebook.com"), ("AWS", "aws.amazon.com"),
-    ("YouTube", "youtube.com"), ("OneDrive", "onedrive.live.com"), ("Twitch", "twitch.tv"),
-    ("Microsoft", "m365.cloud.microsoft"), ("Pornhub", "pornhub.com"), ("TikTok", "tiktok.com"),
-    ("Steam", "steampowered.com"), ("Netflix", "fast.com"), ("GitHub", "github.com"),
-    ("NodeSeek", "nodeseek.com"), ("Telegram", "91.108.56.168")
+("X", "x.com"), 
+("Apple", "apple.com"), 
+("Disney", "disneyplus.com"),
+("Instagram", "instagram.com"), 
+("ChatGPT", "openai.com"), 
+("Google", "google.com"),
+("Claude", "claude.ai"), 
+("Facebook", "facebook.com"), 
+("AWS", "aws.amazon.com"),
+("YouTube", "youtube.com"), 
+("OneDrive", "onedrive.live.com"), 
+("Twitch", "twitch.tv"),
+("Microsoft", "m365.cloud.microsoft"), 
+("Pornhub", "pornhub.com"), 
+("TikTok", "tiktok.com"),
+("Steam", "steampowered.com"), 
+("Netflix", "fast.com"), 
+("GitHub", "github.com"),
+("NodeSeek", "nodeseek.com"), 
+("Telegram.dc1", "149.154.175.53"),
+("Telegram.dc5", "91.108.56.168"),
+("Akile.hkb", "141.11.149.247"),
+("Akile.tw", "82.152.91.201"),
+("Bytevirt.sg", "82.152.91.201"),
+("Softbank.jp", "188.253.125.104"),
+("Bitsflow.us", "216.183.230.60")
 ]
 
 def ping_target(name, host):
