@@ -34,8 +34,7 @@ TARGETS=(
     "Akile.tw|82.152.91.201"
     "Bytevirt.sg|82.152.91.201"
     "Softbank.jp|188.253.125.104"
-    "Bitsflow.us|216.183.230.60"
-    
+    "Bitsflow.us|216.183.230.60"    
 )
 
 TMP_FILE="/tmp/ping_results.txt"
